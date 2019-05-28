@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+}
+
+div {
+  flex-basis: 15%;
+  flex-grow: 1;
+  height: 33%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.rebeccapurple {
+  background-color: rebeccapurple;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+.greenyellow {
+  background-color: greenyellow;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.off {
+  background-color: #888
+}
+
+.hidden {
+  background-color: #000;
+}
+
+@media (orientation: portrait) {
+  div {
+    flex-basis: 30%;
+    height: 15%;
+  }
+}
